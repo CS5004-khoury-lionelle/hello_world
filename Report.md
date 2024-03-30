@@ -19,7 +19,7 @@ link an image in markdown. You may also use [mermaid] class diagrams if you pref
 
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 
-    * The `final` keyword when used on a class prevents the class from being subclassed. This means that the class cannot be extended by another class. This is useful when you want to prevent a class from being modified or extended[^1].
+    * The `final` keyword when used on a class prevents the class from being subclassed. This means that the class cannot be extended by another class. This is useful when you want to prevent a class from being modified or extended[^1] . It is often the standard to do this when a class only contains static methods such as driver or utility classes. Math in Java is an example of a final class[^2] .
 
 3. What does `main` do in Java? 
 
@@ -64,6 +64,8 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 ## References
 
 [^1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2024-03-30. 
+
+[^2]: Math (Java Platform SE 17). https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html. Accessed: 2024-03-30.
 
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
