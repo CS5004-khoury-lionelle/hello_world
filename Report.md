@@ -25,24 +25,21 @@ link an image in markdown. You may also use [mermaid] class diagrams if you pref
 
     Go ahead and answer the question as a short paragraph / few sentences. Notice the indent, this is valid because it is a list item. (erase this line before writing.)
 
-4. Can you have more than one `main` method in a Java program? If so, what are the conditions on it? 
 
-    same as above - short answer
-
-5. What does `toString()` do in Java? Why should any object class you create have a `toString()` method?
+4. What does `toString()` do in Java? Why should any object class you create have a `toString()` method?
 
     Same as above - short answer
 
-6. What is javadoc style commenting? What is it used for? 
+5. What is javadoc style commenting? What is it used for? 
 
     Same as above - short answer
 
 
-7. Describe Test Driving Development (TDD) in your own words. 
+6. Describe Test Driving Development (TDD) in your own words. 
 
     Same as above - short answer    
 
-8. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that here). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
+7. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that here). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
 
 
 ## Deeper Thinking Questions
