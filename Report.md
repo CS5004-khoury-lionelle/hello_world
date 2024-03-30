@@ -5,7 +5,7 @@ The following report contains questions you need to answer as part of your submi
 
 ## Design Doc
 Please link your UML design file here. See resources in the assignment on how to
-link an image in markdown. You may also use [mermaid] class diagrams if you prefer, is so, include the mermaid code here.  You DO NOT have to include Greeting.java as part of the diagram, just the AlohaWorld application that includes: [AlohaWorld.java], [Greeter.java], and [ConsoleView.java].
+link an image in markdown. You may also use [mermaid] class diagrams if you prefer, if so, include the mermaid code here.  You DO NOT have to include Greeting.java as part of the diagram, just the AlohaWorld application that includes: [AlohaWorld.java], [Greeter.java], and [ConsoleView.java].
 
 
 
@@ -33,8 +33,16 @@ link an image in markdown. You may also use [mermaid] class diagrams if you pref
 
     Same as above - short answer
 
+6. What is javadoc style commenting? What is it used for? 
 
-6. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that here). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
+    Same as above - short answer
+
+
+7. Describe Test Driving Development (TDD) in your own words. 
+
+    Same as above - short answer    
+
+8. Go to the [Markdown Playground](MarkdownPlayground.md) and add at least 3 different markdown elements you learned about by reading the markdown resources listed in the document. Additionally you need to add a mermaid class diagram (of your choice does not have to follow the assignment. However, if you did use mermaid for the assignment, you can just copy that here). Add the elements into the markdown file, so that the formatting changes are reserved to that file. 
 
 
 ## Deeper Thinking Questions
@@ -45,7 +53,7 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 1. Why would we want to keep interaction with the client contained to ConsoleView?
 
 
-2. Right now, the application isn't very dynamic in that it can be difficult to add new languages and greetings without modifying the code every time. Just thinking programmatically,  how could you make the application more dynamic? You are free to reference the Geeting.java and how that could be used in your design.
+2. Right now, the application isn't very dynamic in that it can be difficult to add new languages and greetings without modifying the code every time. Just thinking programmatically,  how could you make the application more dynamic? You are free to reference Geeting.java and how that could be used in your design.
 
 
 
