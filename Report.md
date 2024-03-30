@@ -68,6 +68,6 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
 [mermaid]: https://mermaid.js.org/intro/syntax-reference.html
-[AlohaWorld.java]: src/main/java/AlohaWorld.java
-[Greeter.java]: src/main/java/Greeter.java
-[ConsoleView.java]: src/main/java/ConsoleView.java
+[AlohaWorld.java]: src/main/java/student/AlohaWorld.java
+[Greeter.java]: src/main/java/student/Greeter.java
+[ConsoleView.java]: src/main/java/student/ConsoleView.java
