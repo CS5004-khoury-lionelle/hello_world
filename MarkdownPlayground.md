@@ -5,7 +5,7 @@ Use this file to add example markdown elements you learned about by reading the 
 Mermaid is a markdown language that allows you to create diagrams. You can find more information about mermaid in the resources below. It has become popular enough that github has included it as an option in their markdown.  For built in markdown readers, such as the one built into IntelliJ or VSCode, you may need to install a plugin to render the mermaid diagrams. 
 
 > [!NOTE]
-> [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/20146-mermaid) also for intelliJ, this is often installed by default, but incase it isn't [Markdown Plugin IntelliJ](https://plugins.jetbrains.com/plugin/7793-markdown). 
+> [IntelliJ Mermaid Plugin](https://plugins.jetbrains.com/plugin/20146-mermaid). Also for intelliJ, this is often installed by default, but incase it isn't [Markdown Plugin IntelliJ](https://plugins.jetbrains.com/plugin/7793-markdown). 
 
 > [!NOTE] 
 > [VS Code Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid). Markdown preview is enabled by default, but if you want the full github flavored markdown, [Github Styling Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) is popular. 
@@ -17,3 +17,7 @@ Mermaid is a markdown language that allows you to create diagrams. You can find 
 * [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Github Markdown Getting Started](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Mermaid Syntax Reference](https://mermaid.js.org/intro/syntax-reference.html) 
+
+
+<!-- start your playground code under this dashed line -->
+----
