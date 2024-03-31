@@ -231,13 +231,25 @@ When you are completed, you need to submit your code to gradescope. Go back to C
 ## 📝 Grading Rubric
 
 1. Learning (AG)
-  * Code compiles without issue
-  * Code passes all tests both provided and additionally added Greeter.java
+   * Code compiles without issue
+   * Code passes all tests both provided and additionally added Greeter.java
 2. Approaching (AG)
-  * Passes the style check.  
+   * Passes the style check.  
 3. Meets (MG)
-
-4.  Exceeds (MG)
+   * README.md is filled out (name, github repo, etc) 
+     * With out the link to your repo, the TAs won't grade the rest!
+   * UML Diagram is correct, including
+     * AlohaWorld uses ConsoleView
+     * ConsoleView uses Greeter
+     * AlohaWorld has a Greeter relationship
+     * All private variables and methods are included, including method return types
+     * Each method also includes the parameters
+   * The program flow is correct when discussed in your flow paragraph.
+4. Exceeds (MG)
+   * Assignment questions 1-6 are answered correctly
+   * MarkdownGround has both (at least) 3 different markdown elements and a mermaid class diagram
+   * Deeper thinking questions are answered thoughtfully
+   * References for question 2 are included properly in the References section
 
 Legend:
 * AG - Auto-graded
