@@ -247,7 +247,7 @@ When you are completed, you need to submit your code to gradescope. Go back to C
    * The program flow is correct when discussed in your flow paragraph.
 4. Exceeds (MG)
    * Assignment questions 1-6 are answered correctly
-   * MarkdownGround has both (at least) 3 different markdown elements and a mermaid class diagram
+   * MarkdownPlayground has both (at least) 3 different markdown elements and a mermaid class diagram
    * Deeper thinking questions are answered thoughtfully
    * References for question 2 are included properly in the References section
 
