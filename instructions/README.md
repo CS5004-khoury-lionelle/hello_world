@@ -17,6 +17,11 @@ Aloha! This assignment is meant to give you an introduction to the java programm
       - [Part 3.2: Debugging the Code using Tests](#part-32-debugging-the-code-using-tests)
       - [Running the application](#running-the-application)
     - [Part 4: Adding The Greeting Class](#part-4-adding-the-greeting-class)
+    - [Part 5: Answering the Questions](#part-5-answering-the-questions)
+  - [Submission](#submission)
+  - [📝 Grading Rubric](#-grading-rubric)
+    - [Submission Reminder 🚨](#submission-reminder-)
+    - [Autograder Limitation](#autograder-limitation)
 
 
 ## Learning Objectives
@@ -213,6 +218,46 @@ Make sure to comment as you write your code, and commit as you progress through 
 > [!TIP]
 > Since the private variables are not included, it is often best to start there and ask yourself, "what are some variables I need at the class level". Then you can move onto the constructor that helps set those variables. Finally, you can move onto the methods that use those variables. It may help writing a UML diagram for the class before you write the code. 
 
+
+### Part 5: Answering the Questions
+
+Now take time going through [Report.md](../Report.md) and answer the questions listed there. Also make sure to answer the questions in the [README.md](../README.md) file. As you answer a question, commit between each one. This will help you keep a history of the changes, and get you in the habit of committing often. The Report is half your grade for this assignment and is going to be commonly half your grade! So make sure to take your time and answer the questions thoughtfully.
+
+## Submission
+
+When you are completed, you need to submit your code to gradescope. Go back to Canvas, and click through the link that takes you to the Gradescope assignment. When you submit, you will actually need to pull from your github repository in the dialog that appears. It only pulls the most recent submission, and if you make an update to the repository after you submit, you will need to resubmit to get the latest version in gradescope. 
+
+
+## 📝 Grading Rubric
+
+1. Learning (AG)
+  * Code compiles without issue
+  * Code passes all tests both provided and additionally added Greeter.java
+2. Approaching (AG)
+  * Passes the style check.  
+3. Meets (MG)
+
+4.  Exceeds (MG)
+
+Legend:
+* AG - Auto-graded
+* MG - Manually graded
+
+### Submission Reminder 🚨
+For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for your to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
+
+If you need a reminder about the grading policy, please review the syllabus and the canvas page on 'formative/summative' grading. This class uses a unique grading system that will allow you to be flexible with due dates and multiple resubmissions (if you submit with time for TAs to give feedback), but we also ask that you continue to work on the assignment until you get a full grade.
+
+
+### Autograder Limitation
+Currently the autograder is limited in how it can test. As such, when it comes across an error it just stops. This means that if you have multiple errors in your code, you may only see the first one. We are working on improving this, but for now, you will need to fix the first error, and then rerun the tests to see the next error. Eventually, if every test passes, you will get the single point. It also may give you points for valid style, while errors exist in the code - so really assume the first 2 points are done together. 
+
+
+> [!TIP]
+> Don't forget to look at the [Resources](https://github.com/CS5004-khoury-lionelle/Resources) repo for links to help you out with markdown!
+
+
+Last, but not least - you got this!
 
 <!-- links -->
 [javadoc]: https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html 
