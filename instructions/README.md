@@ -13,7 +13,10 @@ Aloha! This assignment is meant to give you an introduction to the java programm
       - [Part 1.1: Updating the README.md](#part-11-updating-the-readmemd)
     - [Part 2: Design Documentation](#part-2-design-documentation)
     - [Part 3: Debugging the Aloha World Application](#part-3-debugging-the-aloha-world-application)
-      - [Part 2.1: Building with Gradle](#part-21-building-with-gradle)
+      - [Part 3.1: Building with Gradle](#part-31-building-with-gradle)
+      - [Part 3.2: Debugging the Code using Tests](#part-32-debugging-the-code-using-tests)
+      - [Running the application](#running-the-application)
+    - [Part 4: Adding The Greeting Class](#part-4-adding-the-greeting-class)
 
 
 ## Learning Objectives
@@ -139,7 +142,7 @@ As always, don't forget to commit and push your changes to github after you have
 
 For the next part of this assignment, you will debug the provided code. Spoiler, it doesn't compile as is! You will need to first find the compile errors and fix them.
 
-#### Part 2.1: Building with Gradle
+#### Part 3.1: Building with Gradle
 To first compile your code, let's look at the gradle commands you can use. Inside your IDE, you can use the terminal to run gradle commands directly. 
 
 To compile your code, you can use the following command:
@@ -156,7 +159,63 @@ or in windows
 
 This will attempt to compile your code.  You an also attempt to compile your code using the IDE. In VS Code, this looks like a small `[run]` above the `main` method. In IntelliJ, it looks like a green play button.
 
+If you have compile errors, you will need to fix them. If you are having trouble, you can ask the TAs for help.
+
+Make sure to commit! Yes, we will repeat that a lot throughout this writeup - don't worry future ones won't remind you as much.
+
+#### Part 3.2: Debugging the Code using Tests
+
+To run your tests, you can use the following command:
+
+```bash
+./gradlew test
+```
+
+or in windows
+
+```bash
+./gradlew.bat test
+```
+
+You can also go into the IDE and run the tests from there. In IntelliJ, you can right click on the test folder and run the tests. In VS Code, you can run the tests from the test file itself.
+
+Using the tests as a foundation, fix the logical errors in the code. The javadoc and thinking through the 'edge cases' can help you find all the errors. 
+
+Make sure to commit, as you add fixes!
+
+#### Running the application
+You can run the application in your IDE to get a feel of what it is like. You can also run it from the command line, but you will need to go into the build\classes\java\main directory to run it. Use `java student.AlohaWorld` to run the application once in that directory. 
+
+
+
+### Part 4: Adding The Greeting Class
+
+For the final part of the assignment, you will need to add a new class to the application. This class will be called `Greeting`. Take a look at the [greeting javadoc] to see what the class should do.
+
+This class is *NOT* part of the current AlohaWorld application. It is completely separate, but there so you can start thinking about future designs while getting practice writing a class from scratch. 
+
+We have included tests for you in [GreetingTest.java]. You can run these tests using the same command as before:
+
+```bash
+./gradlew test
+```
+
+or in windows
+
+```bash
+./gradlew.bat test
+```
+
+However, the tests are commented out! This is so the code would compile without Greeting.java implemented. You will need to uncomment the tests to run them.  We **HIGHLY** suggest you uncomment the tests one at a time, and run them to see if they pass. This will help you debug your code as you go. Don't try writing all of Greeting.java without testing, it will be more of a headache then taking one test at a time. 
+
+Make sure to comment as you write your code, and commit as you progress through your code (often after each method or logical update).
+
+> [!TIP]
+> Since the private variables are not included, it is often best to start there and ask yourself, "what are some variables I need at the class level". Then you can move onto the constructor that helps set those variables. Finally, you can move onto the methods that use those variables. It may help writing a UML diagram for the class before you write the code. 
+
 
 <!-- links -->
 [javadoc]: https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html 
 [mermaid markdown]: https://mermaid.js.org/syntax/classDiagram.html
+[greeting javadoc]: https://cs5004-khoury-lionelle.github.io/hello_world/student/Greeting.html
+[GreetingTest.java]: ../src/test/java/GreetingTest.java
