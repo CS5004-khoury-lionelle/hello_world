@@ -90,7 +90,7 @@ After you do this update, follow the steps in your IDE to commit your changes, a
 Take a look at your repository on github to make sure the changes are there.
 
 > [!IMPORTANT]
-> After every major change to your code and every major step (such as completing part 1), you should commit and push to the repository.
+> After every major change to your code and every major step (such as completing part 1), you should commit and push to the repository. We recommend using [Conventional Commits] which is a standard for writing commit messages. This will help you keep track of what you have done, and help the TAs understand what you have done. For example, using the above example, you could write `docs: added personal git info.` as your commit message.  
 
 
 ### Part 2: Design Documentation
@@ -142,7 +142,7 @@ classDiagram
 Additionally in [Report.md](../Report.md), write a paragraph that details the 'flow' of the application. For example, the program starts in main() in AlohaWorld which then asks the client for their name and location...
 
 
-As always, don't forget to commit and push your changes to github after you have completed this part of the assignment.
+As always, don't forget to commit and push your changes to github after you have completed this part of the assignment. Suggested commit message could be `docs: added UML diagram and flow paragraph.`
 
 ### Part 3: Debugging the Aloha World Application
 
@@ -167,7 +167,7 @@ This will attempt to compile your code.  You an also attempt to compile your cod
 
 If you have compile errors, you will need to fix them. If you are having trouble, you can ask the TAs for help.
 
-Make sure to commit! Yes, we will repeat that a lot throughout this writeup - don't worry future ones won't remind you as much.
+Make sure to commit! Yes, we will repeat that a lot throughout this writeup - don't worry future ones won't remind you as much. Suggested commit message could be `fix(method error found in): fixed compile error in line x.` if you commit after every fix, or `fix: fixed all compile errors.` if you fix them all at once.
 
 #### Part 3.2: Debugging the Code using Tests
 
@@ -277,3 +277,4 @@ Last, but not least - you got this!
 [mermaid markdown]: https://mermaid.js.org/syntax/classDiagram.html
 [greeting javadoc]: https://cs5004-khoury-lionelle.github.io/hello_world/student/Greeting.html
 [GreetingTest.java]: ../src/test/java/GreetingTest.java
+[Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
