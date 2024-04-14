@@ -171,19 +171,7 @@ Make sure to commit! Yes, we will repeat that a lot throughout this writeup - do
 
 #### Part 3.2: Debugging the Code using Tests
 
-To run your tests, you can use the following command:
-
-```bash
-./gradlew test
-```
-
-or in windows
-
-```bash
-./gradlew.bat test
-```
-
-You can also go into the IDE and run the tests from there. In IntelliJ, you can right click on the test folder and run the tests. In VS Code, you can run the tests from the test file itself.
+To run your tests, go into the IDE and run the tests from there. In IntelliJ, you can right click on the test folder and run the tests. In VS Code, you can run the tests from the test file itself. Note this may vary as IDEs are constantly updating their features, so make sure to look around and share if you find it in different locations.
 
 Using the tests as a foundation, fix the logical errors in the code. The javadoc and thinking through the 'edge cases' can help you find all the errors. 
 
@@ -200,17 +188,7 @@ For the final part of the assignment, you will need to add a new class to the ap
 
 This class is *NOT* part of the current AlohaWorld application. It is completely separate, but there so you can start thinking about future designs while getting practice writing a class from scratch. 
 
-We have included tests for you in [GreetingTest.java]. You can run these tests using the same command as before:
-
-```bash
-./gradlew test
-```
-
-or in windows
-
-```bash
-./gradlew.bat test
-```
+We have included tests for you in [GreetingTest.java]. You can run these tests in your IDE. 
 
 However, the tests are commented out! This is so the code would compile without Greeting.java implemented. You will need to uncomment the tests to run them.  We **HIGHLY** suggest you uncomment the tests one at a time, and run them to see if they pass. This will help you debug your code as you go. Don't try writing all of Greeting.java without testing, it will be more of a headache then taking one test at a time. 
 
@@ -257,7 +235,7 @@ Legend:
 * MG - Manually graded
 
 ### Submission Reminder 🚨
-For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for your to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
+For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for you to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
 
 If you need a reminder about the grading policy, please review the syllabus and the canvas page on 'formative/summative' grading. This class uses a unique grading system that will allow you to be flexible with due dates and multiple resubmissions (if you submit with time for TAs to give feedback), but we also ask that you continue to work on the assignment until you get a full grade.
 
