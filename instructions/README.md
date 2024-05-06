@@ -163,6 +163,16 @@ or in windows
 ./gradlew.bat build
 ```
 
+> [!WARNING]
+> Depending on your machine, you may have additional setup steps. Many machines
+> require you typing `./gradle wrapper` before you can use the gradlew command. 
+> You only have to do it once, but it setups the scripts for your machine.
+> A TA also reported having to  change the permissions on the gradlew file to make it executable. The command would be `chmod +x gradlew` in the terminal for macOS or linux.
+>
+> These tend to be one time setup differences between machines, so if you have trouble, ask for help. You won't see these issues if running in your IDE, but it is important
+> to be able to run both in the IDE and on the command line/terminal. 
+> 
+
 This will attempt to compile your code.  You an also attempt to compile your code using the IDE. In VS Code, this looks like a small `[run]` above the `main` method. In IntelliJ, it looks like a green play button.
 
 If you have compile errors, you will need to fix them. If you are having trouble, you can ask the TAs for help.
