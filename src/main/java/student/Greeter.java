@@ -9,16 +9,13 @@ import java.util.List;
 /**
  * Greeter holds the name of the person, and the locality of greeting to be used.
  *
- * <p>
  * The greeter class is meant to be a simple class that acts as a container for the information,
  * along with generating the proper greeting.
- * </p>
- *
  */
 public class Greeter {
     /** holds the name of the person. Immutable. */
     private final String name; // final keyword indicates it is not possible to change the value of
-                               // the field
+    // the field
     /** int value of locality. Mutable */
     private int locality;
 
@@ -41,7 +38,7 @@ public class Greeter {
      * This is the constructor for the Greeter class.
      *
      * This constructor assumes 2 as the default locality.
-     * 
+     *
      * @param name of the person to greet
      */
     public Greeter(String name) {
@@ -51,7 +48,7 @@ public class Greeter {
     /**
      * This is the constructor for the Greeter class.
      *
-     * @param name name of the person to greet
+     * @param name     name of the person to greet
      * @param locality the locality in which to greet them.
      */
     public Greeter(String name, int locality) {
@@ -73,7 +70,7 @@ public class Greeter {
      * @return the name of the greeter
      */
     public String getName() {
-        return name
+        return name;
     }
 
     /**
@@ -81,7 +78,7 @@ public class Greeter {
      *
      * This is called an "accessor" method. It is a method that returns the value of a private
      * field. It is a good practice to make fields private and use accessors to get the value.
-     * 
+     *
      * @return the int value of the locality
      */
     public int getLocality() {
@@ -97,7 +94,7 @@ public class Greeter {
      * Anything that doesn't have a mutator is a 'readonly' field.
      *
      * @param locality the int value of the locality, if out of range, throws an
-     *        IllegalArgumentException
+     *                 IllegalArgumentException
      */
     public void setLocality(int locality) {
         if (locality < 1 || locality > localityList.size()) {
@@ -114,8 +111,9 @@ public class Greeter {
      * This is called an "overloaded" method. It is a method with the same name as another method,
      * but with different parameters. This helps simplify the code calls, and allows for more
      * flexibility in the code.
-     * 
+     *
      * @return the greeting
+     *
      * @see #greet(boolean)
      */
     public String greet() {
@@ -153,6 +151,7 @@ public class Greeter {
      * default greeting.
      *
      * @param asciiOnly if true, only ascii characters will be used
+     *
      * @return the greeting. Possible options are "Hello", "Aloha", "Ni Hao", "Ciao" based on the
      *         locality, so if the locality is 1, and the name is "Kailani", it will return "Aloha,
      *         Kailani!"
@@ -185,7 +184,7 @@ public class Greeter {
     /**
      * Returns the locality as a string. If the locality is not between 1 and localityList.size() it
      * will return "USA"
-     * 
+     *
      * @return the locality as a string
      */
     private String getLocalityString() {
@@ -203,7 +202,7 @@ public class Greeter {
      * hashcode will be the same.
      *
      * Java assumes that if .equals is true, the hashcodes should also be the same.
-     * 
+     *
      * @return the hashcode
      */
     @Override
@@ -219,6 +218,7 @@ public class Greeter {
      * addresses of the objects to confirm they are the same.
      *
      * @param obj the object to compare to
+     *
      * @return true if the objects are the same, false otherwise
      */
     @Override
@@ -262,7 +262,7 @@ public class Greeter {
 
     /**
      * Returns a copy of the locality list.
-     * 
+     *
      * @return a copy of the locality list
      */
     public static List<String> getLocalityList() {
