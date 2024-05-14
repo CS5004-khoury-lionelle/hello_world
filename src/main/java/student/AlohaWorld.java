@@ -54,6 +54,5 @@ public final class AlohaWorld {
             greeter.setLocality(locality);
             ConsoleView.printGreeting(greeter.greet());
         }
-
     }
 }
