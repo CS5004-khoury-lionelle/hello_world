@@ -41,7 +41,8 @@ An observant reader will notice that many of the learning objectives have very l
 ## Javadoc
 
 
-* [javadoc] - This is the link to your javadoc for any code we provide. We will have javadoc for all code we provide, so you can also get an easier understanding of what the code does.
+* [javadoc] - For this assignment we are providing the full javadoc, so you can get used to reading javadoc. Notice most of the java ecosystem uses this type of documentation
+  that is actually derived from the comments. Future assignments we are unable to provide it, as having the javadoc essentially gives a lot of the design solution. 
 
 
 ## Assumptions
@@ -185,10 +186,11 @@ To run your tests, go into the IDE and run the tests from there. In IntelliJ, yo
 
 Using the tests as a foundation, fix the logical errors in the code. The javadoc and thinking through the 'edge cases' can help you find all the errors. 
 
-Make sure to commit, as you add fixes!
+> [!IMPORTANT]
+> Make sure to commit, as you add fixes!
 
 #### Running the application
-You can run the application in your IDE to get a feel of what it is like. You can also run it from the command line, but you will need to go into the build\classes\java\main directory to run it. Use `java student.AlohaWorld` to run the application once in that directory. 
+You can run the application in your IDE to get a feel of what it is like. You can also run it from the command line, but you will need to go into the `build\classes\java\main` directory to run it. Use `java student.AlohaWorld` to run the application once in that directory. 
 
 
 
@@ -245,9 +247,14 @@ Legend:
 * MG - Manually graded
 
 ### Submission Reminder 🚨
-For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for you to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
+For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE UNTIL DATE, removing any windows for you to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
 
 If you need a reminder about the grading policy, please review the syllabus and the canvas page on 'formative/summative' grading. This class uses a unique grading system that will allow you to be flexible with due dates and multiple resubmissions (if you submit with time for TAs to give feedback), but we also ask that you continue to work on the assignment until you get a full grade.
+
+> [!CAUTION]
+> For this class, we give about a month for the **available until date**. This means you will 
+> only have a few manual resubmission attempts, and most everyone uses at least one! As such it is 
+> essential you submit on time!
 
 
 ### Autograder Limitation
