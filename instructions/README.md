@@ -19,6 +19,11 @@ Aloha! This assignment is meant to give you an introduction to the java programm
     - [Part 4: Adding The Greeting Class](#part-4-adding-the-greeting-class)
     - [Part 5: Answering the Questions](#part-5-answering-the-questions)
   - [Submission](#submission)
+  - [🤖 Use of LLMs](#-use-of-llms)
+    - [Learning Java Fundamentals](#learning-java-fundamentals)
+    - [Understanding Object-Oriented Design Principles](#understanding-object-oriented-design-principles)
+    - [Learning Gradle Build System](#learning-gradle-build-system)
+    - [Documentation with Markdown](#documentation-with-markdown)
   - [📝 Grading Rubric](#-grading-rubric)
     - [Submission Reminder 🚨](#submission-reminder-)
     - [Autograder Limitation](#autograder-limitation)
@@ -218,6 +223,78 @@ Now take time going through [Report.md](../Report.md) and answer the questions l
 
 When you are completed, you need to submit your code to gradescope. Go back to Canvas, and click through the link that takes you to the Gradescope assignment. When you submit, you will actually need to pull from your github repository in the dialog that appears. It only pulls the most recent submission, and if you make an update to the repository after you submit, you will need to resubmit to get the latest version in gradescope. 
 
+## 🤖 Use of LLMs
+
+For this assignment, you should avoid the use of LLMs, as you are just learning to code Java, and much of this assignment requires you to critically think. To help you prepare for AI use within this course, we suggest you read this [article](https://addyo.substack.com/p/my-llm-coding-workflow-going-into). 
+
+Additionally, you are allowed to use AI to help you **learn** Java. Here are some suggested prompts:
+
+### Learning Java Fundamentals
+
+> I'm learning Java for the first time and want to understand it from scratch. Please teach me interactively:
+>
+> 1. Start with the fundamentals - what makes Java different from other languages
+> 2. Explain classes and objects - what they are and why they matter
+> 3. Break down access modifiers (public, private, protected)
+> 4. Show me how methods work and the difference between static and instance methods
+> 5. Explain basic data types and when to use each one
+>
+> After each concept, quiz me with questions to test my understanding. Give me immediate feedback on my answers - if I'm wrong, explain why and help me understand the correct answer. If I'm right, confirm it and build on that knowledge.
+>
+> Adjust the difficulty based on how I'm doing. If I'm struggling, slow down and provide more examples. If I'm getting it quickly, move faster and introduce more advanced concepts.
+>
+> Make it conversational and encouraging. Ask me one question at a time and wait for my response before continuing.
+>
+> Let's start with the very basics!
+
+### Understanding Object-Oriented Design Principles
+
+> I'm learning object-oriented design and want to understand how to think about designing classes. Please teach me interactively:
+>
+> 1. What does it mean to "design" a class vs just writing code?
+> 2. How do I identify what should be a class vs what should be a method?
+> 3. What makes a class have good encapsulation?
+> 4. How do I decide what fields and methods a class should have?
+> 5. When should classes interact with each other vs handle things internally?
+>
+> Use simple, concrete examples - maybe designing classes for everyday things like a library system or a simple game.
+>
+> After explaining each concept, give me a design scenario and ask me how I would approach it. Give me feedback on my thinking process - not just whether I'm right or wrong, but why my approach does or doesn't follow good OOD principles.
+>
+> Make it conversational. Ask me one question at a time and wait for my response.
+>
+> Start with what "design" even means in programming!
+
+### Learning Gradle Build System
+
+> I'm new to Gradle and build systems in general. I need to understand how Gradle works for my Java project. Please teach me:
+>
+> 1. What is a build system and why do I need one?
+> 2. What does the build.gradle file do?
+> 3. How do dependencies work in Gradle?
+> 4. What are common Gradle commands (build, run, test) and when to use each?
+> 5. How do I read and understand Gradle error messages?
+>
+> Teach me interactively by showing me practical examples. After each concept, quiz me to check my understanding.
+>
+> If I share a Gradle error with you, help me understand what it means and how to fix it, but don't just give me the answer - guide me through the debugging process.
+>
+> Make it conversational and adjust based on my responses. Start with the absolute basics!
+
+### Documentation with Markdown
+
+> I need to learn Markdown for documenting my Java projects. Please teach me:
+>
+> 1. Basic Markdown syntax (headers, lists, code blocks, links)
+> 2. How to format code examples in Markdown
+> 3. Best practices for writing technical documentation
+> 4. How to structure a README file for a Java project
+>
+> Show me examples, then ask me to write my own Markdown for a simple scenario. Give me feedback on both my syntax and whether my documentation clearly explains what it should.
+>
+> Make it practical and conversational. Let's start with the basics!
+
+Remember: These prompts are for learning concepts, not for getting solutions to assignment problems. Use them to understand Java, OOD principles, and your tools - then apply that knowledge yourself when completing assignments.
 
 ## 📝 Grading Rubric
 
