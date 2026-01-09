@@ -2,6 +2,19 @@
 
 Aloha! This assignment is meant to give you an introduction to the java programming language and object oriented design. The assignment is to debug the provided java application, and then add a new java object from scratch giving you both the experience of a working java program, and writing a file from scratch. Overall, the goal is for you to learn the homework submission process, and get a feel for the java programming language.
 
+## Homework Tasks Checklist
+You can check this off as you complete tasks by adding an 'x' to the bracket box.
+
+- [ ] Clone your repository 
+- [ ] Update README.md and push to your remote repository
+- [ ] Update the UML diagram for the Aloha World application
+- [ ] Debug the Aloha World application
+  - [ ] Run the tests
+  - [ ] Fix errors in the code
+- [ ] Add the Greeting class
+- [ ] Answer the Report.md questions
+- [ ] Submit to Gradescope
+
 ## Table of Contents
 - [Aloha World Homework Instructions](#aloha-world-homework-instructions)
   - [Table of Contents](#table-of-contents)
@@ -349,4 +362,5 @@ Last, but not least - you got this!
 [mermaid markdown]: https://mermaid.js.org/syntax/classDiagram.html
 [greeting javadoc]: https://cs5004-khoury-lionelle.github.io/hello_world/student/Greeting.html
 [GreetingTest.java]: ../src/test/java/GreetingTest.java
+
 [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
